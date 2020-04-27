@@ -2,7 +2,7 @@
 #include <string>
 #include <locale.h>
 #include <windows.h>
-#include <Old\ReturnByLink.h>
+#include <ReturnByLink.h>
 #include <Shooter.h>
 #include <CycleTest.h>
 #include <FileIO.h>

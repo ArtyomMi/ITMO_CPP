@@ -15,7 +15,11 @@
         "UNICODE",
         "_UNICODE"
       ],
-      "intelliSenseMode": "windows-msvc-x64"
+      "intelliSenseMode": "windows-msvc-x64",
+      "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+      "npm" "login",
+      "--registry=https": null, //npm.pkg.github.com/
+      "npm" "publish"
     }
   ]
 }
