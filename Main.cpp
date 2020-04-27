@@ -2,8 +2,10 @@
 #include <string>
 #include <locale.h>
 #include <windows.h>
-#include <D:\itmo\CPP\test\Project1\ReturnByLink.h>
-#include <D:\itmo\CPP\test\Project1\Shooter.h>
+#include <Old\ReturnByLink.h>
+#include <Shooter.h>
+#include <CycleTest.h>
+#include <FileIO.h>
 
 
 //using namespace std;
