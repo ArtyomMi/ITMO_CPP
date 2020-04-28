@@ -6,25 +6,38 @@
 class FileIO
 {
 public:
-	int WriteInFile(string fileName, string text);
+	FileIO();
 	~FileIO();
+	int WriteInFile(string fileName, string text);
+	string ReadFromFile(string fileName);
 
 private:
 
 };
+FileIO::FileIO()
+{
+}
+
+
+FileIO::~FileIO()
+{
+}
 
 int FileIO::WriteInFile(string fileName, string text)
 {
 	ofstream out(fileName, ios::out | ios::binary);
 	if (!out) {
 		cout << "File open error";
-		return 1;
+		return -1;
 	}
 	out.write(text.c_str(), text.size());
 	out.close();
-	return 0;
+	return 1;
 }
-
-FileIO::~FileIO()
+string FileIO::ReadFromFile(string fileName)
 {
+	string outStr = "";
+	ifstream in(fileName);
+	in >> outStr;
+	return outStr;
 }

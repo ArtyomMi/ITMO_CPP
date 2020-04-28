@@ -30,6 +30,11 @@ int main()
 	}
 	else std::cout << "Sorry, roots dosen't find";*/
 
-	FileIO file;
-	file.WriteInFile("testFile", "Test");
+
+	//File Input/Output
+	//FileIO file;
+	//file.WriteInFile("testFile", "Test321");
+	//cout << file.ReadFromFile("testFile");
+
+
 }
