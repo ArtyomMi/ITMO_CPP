@@ -26,5 +26,14 @@
     <ClInclude Include="Shooter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Old\CycleTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

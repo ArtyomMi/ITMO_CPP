@@ -142,6 +142,9 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileIO\FileIO.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Old\CycleTest.h" />
     <ClInclude Include="ReturnByLink.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>

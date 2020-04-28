@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int Cycle()
 {
     double prices[5] = { 4.99, 10.99, 6.87, 7.99, 8.49 };
 
