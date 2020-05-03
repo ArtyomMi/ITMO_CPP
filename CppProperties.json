@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x64"
+      ],
+      "name": "x64-Debug",
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x64",
+      "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+      "npm" "login",
+      "--registry=https": null, //npm.pkg.github.com/
+      "npm" "publish"
+    }
+  ]
+}

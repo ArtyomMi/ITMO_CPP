@@ -2,10 +2,8 @@
 #include <string>
 #include <locale.h>
 #include <windows.h>
-#include <c:\Users\Admin-a\source\repos\ITMO_CPP\Old\ReturnByLink.h>
-#include <c:\Users\Admin-a\source\repos\ITMO_CPP\Old\Shooter.h>
-#include <c:\Users\Admin-a\source\repos\ITMO_CPP\Old\CycleTest.h>
-#include <c:\Users\Admin-a\source\repos\ITMO_CPP\FileIO\FileIO.h>
+#include <D:\itmo\CPP\test\Project1\ReturnByLink.h>
+#include <D:\itmo\CPP\test\Project1\Shooter.h>
 
 
 //using namespace std;
